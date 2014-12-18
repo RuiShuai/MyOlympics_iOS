@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B6F2B041A42C33E0011DEE0 /* Game.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B8AF4EF1A41502B00B69E4D /* Game.h */; };
+		1B6F2B051A42C33E0011DEE0 /* Schedule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B8AF4F31A41506400B69E4D /* Schedule.h */; };
+		1B6F2B061A42C33E0011DEE0 /* BaseDAO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B8AF4F71A4150AF00B69E4D /* BaseDAO.h */; };
+		1B6F2B071A42C33E0011DEE0 /* GameDAO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B8AF4FB1A4150D500B69E4D /* GameDAO.h */; };
+		1B6F2B081A42C33E0011DEE0 /* ScheduleDAO.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B8AF4FF1A4150F800B69E4D /* ScheduleDAO.h */; };
+		1B6F2B091A42C33E0011DEE0 /* DBHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B8AF5071A41556F00B69E4D /* DBHelper.h */; };
+		1B6F2B0B1A42C3CC0011DEE0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6F2B0A1A42C3CC0011DEE0 /* libsqlite3.dylib */; };
+		1B6F2B0C1A42C3D00011DEE0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6F2B0A1A42C3CC0011DEE0 /* libsqlite3.dylib */; };
+		1B8AF4F11A41502B00B69E4D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4F01A41502B00B69E4D /* Game.m */; };
+		1B8AF4F21A41502B00B69E4D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4F01A41502B00B69E4D /* Game.m */; };
+		1B8AF4F51A41506400B69E4D /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4F41A41506400B69E4D /* Schedule.m */; };
+		1B8AF4F61A41506400B69E4D /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4F41A41506400B69E4D /* Schedule.m */; };
+		1B8AF4F91A4150AF00B69E4D /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4F81A4150AF00B69E4D /* BaseDAO.m */; };
+		1B8AF4FA1A4150AF00B69E4D /* BaseDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4F81A4150AF00B69E4D /* BaseDAO.m */; };
+		1B8AF4FD1A4150D500B69E4D /* GameDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4FC1A4150D500B69E4D /* GameDAO.m */; };
+		1B8AF4FE1A4150D500B69E4D /* GameDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF4FC1A4150D500B69E4D /* GameDAO.m */; };
+		1B8AF5011A4150F800B69E4D /* ScheduleDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5001A4150F800B69E4D /* ScheduleDAO.m */; };
+		1B8AF5021A4150F800B69E4D /* ScheduleDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5001A4150F800B69E4D /* ScheduleDAO.m */; };
+		1B8AF5041A41513000B69E4D /* GameDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5031A41513000B69E4D /* GameDAOTests.m */; };
+		1B8AF5061A41515C00B69E4D /* ScheduleDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5051A41515C00B69E4D /* ScheduleDAOTests.m */; };
+		1B8AF5091A41556F00B69E4D /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5081A41556F00B69E4D /* DBHelper.m */; };
+		1B8AF50A1A41556F00B69E4D /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5081A41556F00B69E4D /* DBHelper.m */; };
+		1B8AF50D1A417C7E00B69E4D /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B8AF50C1A417C7E00B69E4D /* DBConfig.plist */; };
+		1B8AF50F1A417D2000B69E4D /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1B8AF50E1A417D2000B69E4D /* create_load.sql */; };
 		1BFF67BB1A412D4C00503922 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFF67AF1A412D4C00503922 /* libPersistenceLayer.a */; };
 /* End PBXBuildFile section */
 
@@ -27,12 +51,36 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				1B6F2B041A42C33E0011DEE0 /* Game.h in CopyFiles */,
+				1B6F2B051A42C33E0011DEE0 /* Schedule.h in CopyFiles */,
+				1B6F2B061A42C33E0011DEE0 /* BaseDAO.h in CopyFiles */,
+				1B6F2B071A42C33E0011DEE0 /* GameDAO.h in CopyFiles */,
+				1B6F2B081A42C33E0011DEE0 /* ScheduleDAO.h in CopyFiles */,
+				1B6F2B091A42C33E0011DEE0 /* DBHelper.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B6F2B031A42C2820011DEE0 /* create_load2.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load2.sql; sourceTree = "<group>"; };
+		1B6F2B0A1A42C3CC0011DEE0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1B8AF4EF1A41502B00B69E4D /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1B8AF4F01A41502B00B69E4D /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		1B8AF4F31A41506400B69E4D /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		1B8AF4F41A41506400B69E4D /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		1B8AF4F71A4150AF00B69E4D /* BaseDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDAO.h; sourceTree = "<group>"; };
+		1B8AF4F81A4150AF00B69E4D /* BaseDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDAO.m; sourceTree = "<group>"; };
+		1B8AF4FB1A4150D500B69E4D /* GameDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDAO.h; sourceTree = "<group>"; };
+		1B8AF4FC1A4150D500B69E4D /* GameDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDAO.m; sourceTree = "<group>"; };
+		1B8AF4FF1A4150F800B69E4D /* ScheduleDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleDAO.h; sourceTree = "<group>"; };
+		1B8AF5001A4150F800B69E4D /* ScheduleDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDAO.m; sourceTree = "<group>"; };
+		1B8AF5031A41513000B69E4D /* GameDAOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDAOTests.m; sourceTree = "<group>"; };
+		1B8AF5051A41515C00B69E4D /* ScheduleDAOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDAOTests.m; sourceTree = "<group>"; };
+		1B8AF5071A41556F00B69E4D /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
+		1B8AF5081A41556F00B69E4D /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
+		1B8AF50C1A417C7E00B69E4D /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		1B8AF50E1A417D2000B69E4D /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
 		1BFF67AF1A412D4C00503922 /* libPersistenceLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPersistenceLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFF67BA1A412D4C00503922 /* PersistenceLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFF67C01A412D4C00503922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6F2B0B1A42C3CC0011DEE0 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6F2B0C1A42C3D00011DEE0 /* libsqlite3.dylib in Frameworks */,
 				1BFF67BB1A412D4C00503922 /* libPersistenceLayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,9 +107,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B8AF50B1A417C4D00B69E4D /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				1B8AF50C1A417C7E00B69E4D /* DBConfig.plist */,
+				1B8AF50E1A417D2000B69E4D /* create_load.sql */,
+				1B6F2B031A42C2820011DEE0 /* create_load2.sql */,
+			);
+			name = DBFile;
+			sourceTree = "<group>";
+		};
 		1BFF67A61A412D4C00503922 = {
 			isa = PBXGroup;
 			children = (
+				1B6F2B0A1A42C3CC0011DEE0 /* libsqlite3.dylib */,
+				1B8AF50B1A417C4D00B69E4D /* DBFile */,
 				1BFF67B11A412D4C00503922 /* PersistenceLayer */,
 				1BFF67BE1A412D4C00503922 /* PersistenceLayerTests */,
 				1BFF67B01A412D4C00503922 /* Products */,
@@ -78,6 +140,18 @@
 		1BFF67B11A412D4C00503922 /* PersistenceLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1B8AF4EF1A41502B00B69E4D /* Game.h */,
+				1B8AF4F01A41502B00B69E4D /* Game.m */,
+				1B8AF4F31A41506400B69E4D /* Schedule.h */,
+				1B8AF4F41A41506400B69E4D /* Schedule.m */,
+				1B8AF5071A41556F00B69E4D /* DBHelper.h */,
+				1B8AF5081A41556F00B69E4D /* DBHelper.m */,
+				1B8AF4F71A4150AF00B69E4D /* BaseDAO.h */,
+				1B8AF4F81A4150AF00B69E4D /* BaseDAO.m */,
+				1B8AF4FB1A4150D500B69E4D /* GameDAO.h */,
+				1B8AF4FC1A4150D500B69E4D /* GameDAO.m */,
+				1B8AF4FF1A4150F800B69E4D /* ScheduleDAO.h */,
+				1B8AF5001A4150F800B69E4D /* ScheduleDAO.m */,
 			);
 			path = PersistenceLayer;
 			sourceTree = "<group>";
@@ -86,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				1BFF67BF1A412D4C00503922 /* Supporting Files */,
+				1B8AF5031A41513000B69E4D /* GameDAOTests.m */,
+				1B8AF5051A41515C00B69E4D /* ScheduleDAOTests.m */,
 			);
 			path = PersistenceLayerTests;
 			sourceTree = "<group>";
@@ -176,6 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8AF50F1A417D2000B69E4D /* create_load.sql in Resources */,
+				1B8AF50D1A417C7E00B69E4D /* DBConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8AF4F51A41506400B69E4D /* Schedule.m in Sources */,
+				1B8AF4F91A4150AF00B69E4D /* BaseDAO.m in Sources */,
+				1B8AF5011A4150F800B69E4D /* ScheduleDAO.m in Sources */,
+				1B8AF4FD1A4150D500B69E4D /* GameDAO.m in Sources */,
+				1B8AF4F11A41502B00B69E4D /* Game.m in Sources */,
+				1B8AF5091A41556F00B69E4D /* DBHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8AF4F61A41506400B69E4D /* Schedule.m in Sources */,
+				1B8AF4FA1A4150AF00B69E4D /* BaseDAO.m in Sources */,
+				1B8AF5021A4150F800B69E4D /* ScheduleDAO.m in Sources */,
+				1B8AF50A1A41556F00B69E4D /* DBHelper.m in Sources */,
+				1B8AF5061A41515C00B69E4D /* ScheduleDAOTests.m in Sources */,
+				1B8AF4FE1A4150D500B69E4D /* GameDAO.m in Sources */,
+				1B8AF5041A41513000B69E4D /* GameDAOTests.m in Sources */,
+				1B8AF4F21A41502B00B69E4D /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +440,7 @@
 				1BFF67C51A412D4C00503922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BFF67C61A412D4C00503922 /* Build configuration list for PBXNativeTarget "PersistenceLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -356,6 +449,7 @@
 				1BFF67C81A412D4C00503922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
