@@ -22,7 +22,7 @@
 
 -(BOOL)openDB
 {
-    NSLog(@"DbFilePath = %@",self.dbFilePath);
+    //NSLog(@"DbFilePath = %@",self.dbFilePath);
     if (sqlite3_open([self.dbFilePath UTF8String], &db) != SQLITE_OK) {
         sqlite3_close(db);
         NSLog(@"open db failed");

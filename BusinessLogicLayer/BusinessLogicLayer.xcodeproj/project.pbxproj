@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B66945A1A43AC6800B8A52E /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1B6694581A43AC6800B8A52E /* create_load.sql */; };
-		1B66945B1A43AC6800B8A52E /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B6694591A43AC6800B8A52E /* DBConfig.plist */; };
+		1B66945A1A43AC6800B8A52E /* create_load20.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1B6694581A43AC6800B8A52E /* create_load20.sql */; };
+		1B66945B1A43AC6800B8A52E /* DBConfig20.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B6694591A43AC6800B8A52E /* DBConfig20.plist */; };
 		1B6F2B0F1A42E5480011DEE0 /* GameBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B0E1A42E5480011DEE0 /* GameBL.m */; };
 		1B6F2B121A42E55F0011DEE0 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B111A42E55F0011DEE0 /* ScheduleBL.m */; };
 		1B6F2B141A42F14E0011DEE0 /* GameBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B131A42F14E0011DEE0 /* GameBLTests.m */; };
@@ -49,8 +49,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1B6694581A43AC6800B8A52E /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
-		1B6694591A43AC6800B8A52E /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		1B6694581A43AC6800B8A52E /* create_load20.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load20.sql; sourceTree = "<group>"; };
+		1B6694591A43AC6800B8A52E /* DBConfig20.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig20.plist; sourceTree = "<group>"; };
 		1B6F2B0D1A42E5480011DEE0 /* GameBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBL.h; sourceTree = "<group>"; };
 		1B6F2B0E1A42E5480011DEE0 /* GameBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBL.m; sourceTree = "<group>"; };
 		1B6F2B101A42E55F0011DEE0 /* ScheduleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBL.h; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 		1B6694571A43AC1A00B8A52E /* DBFile */ = {
 			isa = PBXGroup;
 			children = (
-				1B6694581A43AC6800B8A52E /* create_load.sql */,
-				1B6694591A43AC6800B8A52E /* DBConfig.plist */,
+				1B6694581A43AC6800B8A52E /* create_load20.sql */,
+				1B6694591A43AC6800B8A52E /* DBConfig20.plist */,
 			);
 			name = DBFile;
 			sourceTree = "<group>";
@@ -224,8 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B66945B1A43AC6800B8A52E /* DBConfig.plist in Resources */,
-				1B66945A1A43AC6800B8A52E /* create_load.sql in Resources */,
+				1B66945B1A43AC6800B8A52E /* DBConfig20.plist in Resources */,
+				1B66945A1A43AC6800B8A52E /* create_load20.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

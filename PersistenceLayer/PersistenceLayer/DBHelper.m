@@ -18,6 +18,13 @@
     NSString *configTablePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"DBConfig" ofType:@"plist"];
     NSLog(@"configTablePath = %@",configTablePath);
     
+    /*
+     configTablePath = /Users/taojunjun/Library/Developer/CoreSimulator/Devices/6421D348-AB47-44F3-B630-314F723729EA/data/Containers/Bundle/Application/97F560A7-0FB3-440B-BB97-ED57F7532A77/MyOlympics.app/DBConfig.plist
+     2014-12-19 11:36:46.078 MyOlympics[5813:84302] dbVersionNumber有数据情况下
+     2014-12-19 11:36:46.078 MyOlympics[5813:84302] DbFilePath = /Users/taojunjun/Library/Developer/CoreSimulator/Devices/6421D348-AB47-44F3-B630-314F723729EA/data/Containers/Data/Application/E6B95E2B-AA87-45BD-A7E0-C15B5BA9D49C/Documents/app.db
+
+     */
+    
     NSDictionary *configTable = [[NSDictionary alloc] initWithContentsOfFile:configTablePath];
     //get dbVersion from file
     NSNumber *dbConfigVersion = [configTable objectForKey:@"DB_VERSION"];
@@ -36,7 +43,7 @@
             sqlite3_close(db);
             NSAssert(NO,@"open db failed!");
         } else {
-            //load data
+            //load data with a few mins;
             NSLog(@"db upgrading...");
             char *err;
             NSString *createTablePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"create_load" ofType:@"sql"];
@@ -45,7 +52,7 @@
                 NSLog(@"db upgrade failed with error: %@",[NSMutableString stringWithCString:err encoding:NSUTF8StringEncoding]);
             }
             
-            //save curent dbVersionNumber to dbfile("app.db")
+            //sync version_number(db) to ("app.db")
             NSString *usql = [[NSString alloc] initWithFormat:@"update  DBVersionInfo set version_number = %i", [dbConfigVersion intValue]];
             if (sqlite3_exec(db, [usql UTF8String], NULL, NULL, &err) != SQLITE_OK) {
                 NSAssert(NO,@"update DBVersionInfo failed.");
@@ -77,7 +84,7 @@
         //pre-process
         if (sqlite3_prepare_v2(db, [qsql UTF8String], -1, &statement, NULL)==SQLITE_OK) {
             if (sqlite3_step(statement)==SQLITE_ROW) {
-                NSLog(@"with data");
+                NSLog(@"DBVersionInfo has version_number");
                 versionNumber = sqlite3_column_int(statement, 0);
             } else {
                 NSString *csql = @"insert into DBVersionInfo (version_number) values(-1)";

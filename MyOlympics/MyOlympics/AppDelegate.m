@@ -16,7 +16,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //使用GCD分配子进程,异步初始化数据库
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_async(queue, ^{
+        //加载并初始化数据库
+        DBHelper *dbHelper = [DBHelper new];
+        [dbHelper initDB];
+        NSLog(@"DBHelper initDB in appDelegate");
+    });
+    
     return YES;
 }
 

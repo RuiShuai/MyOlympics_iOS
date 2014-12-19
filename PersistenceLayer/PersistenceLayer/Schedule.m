@@ -10,4 +10,10 @@
 
 @implementation Schedule
 
+-(NSString *)description
+{
+    NSString *desc = [[NSString alloc] initWithFormat:@"Schedule with ID:%li,date:%@,time:%@,info:%@,gameID:%li",_ID,_date,_time,_info,_game.ID];
+    return desc;
+}
+
 @end

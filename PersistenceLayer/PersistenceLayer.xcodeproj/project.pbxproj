@@ -29,8 +29,8 @@
 		1B8AF5061A41515C00B69E4D /* ScheduleDAOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5051A41515C00B69E4D /* ScheduleDAOTests.m */; };
 		1B8AF5091A41556F00B69E4D /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5081A41556F00B69E4D /* DBHelper.m */; };
 		1B8AF50A1A41556F00B69E4D /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8AF5081A41556F00B69E4D /* DBHelper.m */; };
-		1B8AF50D1A417C7E00B69E4D /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B8AF50C1A417C7E00B69E4D /* DBConfig.plist */; };
-		1B8AF50F1A417D2000B69E4D /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1B8AF50E1A417D2000B69E4D /* create_load.sql */; };
+		1B8AF50D1A417C7E00B69E4D /* DBConfig1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B8AF50C1A417C7E00B69E4D /* DBConfig1.plist */; };
+		1B8AF50F1A417D2000B69E4D /* create_load1.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1B8AF50E1A417D2000B69E4D /* create_load1.sql */; };
 		1BFF67BB1A412D4C00503922 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFF67AF1A412D4C00503922 /* libPersistenceLayer.a */; };
 /* End PBXBuildFile section */
 
@@ -79,8 +79,8 @@
 		1B8AF5051A41515C00B69E4D /* ScheduleDAOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleDAOTests.m; sourceTree = "<group>"; };
 		1B8AF5071A41556F00B69E4D /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBHelper.h; sourceTree = "<group>"; };
 		1B8AF5081A41556F00B69E4D /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBHelper.m; sourceTree = "<group>"; };
-		1B8AF50C1A417C7E00B69E4D /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
-		1B8AF50E1A417D2000B69E4D /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
+		1B8AF50C1A417C7E00B69E4D /* DBConfig1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig1.plist; sourceTree = "<group>"; };
+		1B8AF50E1A417D2000B69E4D /* create_load1.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load1.sql; sourceTree = "<group>"; };
 		1BFF67AF1A412D4C00503922 /* libPersistenceLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPersistenceLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFF67BA1A412D4C00503922 /* PersistenceLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistenceLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFF67C01A412D4C00503922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,8 +110,8 @@
 		1B8AF50B1A417C4D00B69E4D /* DBFile */ = {
 			isa = PBXGroup;
 			children = (
-				1B8AF50C1A417C7E00B69E4D /* DBConfig.plist */,
-				1B8AF50E1A417D2000B69E4D /* create_load.sql */,
+				1B8AF50C1A417C7E00B69E4D /* DBConfig1.plist */,
+				1B8AF50E1A417D2000B69E4D /* create_load1.sql */,
 				1B6F2B031A42C2820011DEE0 /* create_load2.sql */,
 			);
 			name = DBFile;
@@ -252,8 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8AF50F1A417D2000B69E4D /* create_load.sql in Resources */,
-				1B8AF50D1A417C7E00B69E4D /* DBConfig.plist in Resources */,
+				1B8AF50F1A417D2000B69E4D /* create_load1.sql in Resources */,
+				1B8AF50D1A417C7E00B69E4D /* DBConfig1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
