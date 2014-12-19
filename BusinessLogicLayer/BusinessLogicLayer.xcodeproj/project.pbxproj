@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B66945A1A43AC6800B8A52E /* create_load.sql in Resources */ = {isa = PBXBuildFile; fileRef = 1B6694581A43AC6800B8A52E /* create_load.sql */; };
+		1B66945B1A43AC6800B8A52E /* DBConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B6694591A43AC6800B8A52E /* DBConfig.plist */; };
+		1B6F2B0F1A42E5480011DEE0 /* GameBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B0E1A42E5480011DEE0 /* GameBL.m */; };
+		1B6F2B121A42E55F0011DEE0 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B111A42E55F0011DEE0 /* ScheduleBL.m */; };
+		1B6F2B141A42F14E0011DEE0 /* GameBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B131A42F14E0011DEE0 /* GameBLTests.m */; };
+		1B6F2B161A42F1640011DEE0 /* ScheduleBLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B151A42F1640011DEE0 /* ScheduleBLTests.m */; };
+		1B6F2B171A42F18B0011DEE0 /* GameBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B0E1A42E5480011DEE0 /* GameBL.m */; };
+		1B6F2B181A42F18D0011DEE0 /* ScheduleBL.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F2B111A42E55F0011DEE0 /* ScheduleBL.m */; };
+		1B6F2B191A42F1A00011DEE0 /* GameBL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B6F2B0D1A42E5480011DEE0 /* GameBL.h */; };
+		1B6F2B1A1A42F1A00011DEE0 /* ScheduleBL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B6F2B101A42E55F0011DEE0 /* ScheduleBL.h */; };
+		1B6F2B1C1A42F1B80011DEE0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6F2B1B1A42F1B80011DEE0 /* libsqlite3.dylib */; };
+		1B6F2B1D1A42F1BD0011DEE0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6F2B1B1A42F1B80011DEE0 /* libsqlite3.dylib */; };
+		1B6F2B201A42F4450011DEE0 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6F2B1F1A42F4450011DEE0 /* libPersistenceLayer.a */; };
+		1B6F2B211A42F44A0011DEE0 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6F2B1F1A42F4450011DEE0 /* libPersistenceLayer.a */; };
 		1BFF67DE1A412D8400503922 /* libBusinessLogicLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFF67D21A412D8400503922 /* libBusinessLogicLayer.a */; };
-		1BFF67ED1A412D9D00503922 /* libPersistenceLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFF67EC1A412D9D00503922 /* libPersistenceLayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,16 +41,27 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				1B6F2B191A42F1A00011DEE0 /* GameBL.h in CopyFiles */,
+				1B6F2B1A1A42F1A00011DEE0 /* ScheduleBL.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B6694581A43AC6800B8A52E /* create_load.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = create_load.sql; sourceTree = "<group>"; };
+		1B6694591A43AC6800B8A52E /* DBConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBConfig.plist; sourceTree = "<group>"; };
+		1B6F2B0D1A42E5480011DEE0 /* GameBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBL.h; sourceTree = "<group>"; };
+		1B6F2B0E1A42E5480011DEE0 /* GameBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBL.m; sourceTree = "<group>"; };
+		1B6F2B101A42E55F0011DEE0 /* ScheduleBL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleBL.h; sourceTree = "<group>"; };
+		1B6F2B111A42E55F0011DEE0 /* ScheduleBL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBL.m; sourceTree = "<group>"; };
+		1B6F2B131A42F14E0011DEE0 /* GameBLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBLTests.m; sourceTree = "<group>"; };
+		1B6F2B151A42F1640011DEE0 /* ScheduleBLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleBLTests.m; sourceTree = "<group>"; };
+		1B6F2B1B1A42F1B80011DEE0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1B6F2B1F1A42F4450011DEE0 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
 		1BFF67D21A412D8400503922 /* libBusinessLogicLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBusinessLogicLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFF67DD1A412D8400503922 /* BusinessLogicLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessLogicLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFF67E31A412D8400503922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BFF67EC1A412D9D00503922 /* libPersistenceLayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPersistenceLayer.a; path = "../PersistenceLayer/build/Debug-iphoneos/libPersistenceLayer.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BFF67ED1A412D9D00503922 /* libPersistenceLayer.a in Frameworks */,
+				1B6F2B201A42F4450011DEE0 /* libPersistenceLayer.a in Frameworks */,
+				1B6F2B1C1A42F1B80011DEE0 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,17 +78,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6F2B1D1A42F1BD0011DEE0 /* libsqlite3.dylib in Frameworks */,
 				1BFF67DE1A412D8400503922 /* libBusinessLogicLayer.a in Frameworks */,
+				1B6F2B211A42F44A0011DEE0 /* libPersistenceLayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B6694571A43AC1A00B8A52E /* DBFile */ = {
+			isa = PBXGroup;
+			children = (
+				1B6694581A43AC6800B8A52E /* create_load.sql */,
+				1B6694591A43AC6800B8A52E /* DBConfig.plist */,
+			);
+			name = DBFile;
+			sourceTree = "<group>";
+		};
 		1BFF67C91A412D8400503922 = {
 			isa = PBXGroup;
 			children = (
-				1BFF67EC1A412D9D00503922 /* libPersistenceLayer.a */,
+				1B6694571A43AC1A00B8A52E /* DBFile */,
+				1B6F2B1F1A42F4450011DEE0 /* libPersistenceLayer.a */,
+				1B6F2B1B1A42F1B80011DEE0 /* libsqlite3.dylib */,
 				1BFF67D41A412D8400503922 /* BusinessLogicLayer */,
 				1BFF67E11A412D8400503922 /* BusinessLogicLayerTests */,
 				1BFF67D31A412D8400503922 /* Products */,
@@ -82,6 +120,10 @@
 		1BFF67D41A412D8400503922 /* BusinessLogicLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1B6F2B0D1A42E5480011DEE0 /* GameBL.h */,
+				1B6F2B0E1A42E5480011DEE0 /* GameBL.m */,
+				1B6F2B101A42E55F0011DEE0 /* ScheduleBL.h */,
+				1B6F2B111A42E55F0011DEE0 /* ScheduleBL.m */,
 			);
 			path = BusinessLogicLayer;
 			sourceTree = "<group>";
@@ -90,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				1BFF67E21A412D8400503922 /* Supporting Files */,
+				1B6F2B131A42F14E0011DEE0 /* GameBLTests.m */,
+				1B6F2B151A42F1640011DEE0 /* ScheduleBLTests.m */,
 			);
 			path = BusinessLogicLayerTests;
 			sourceTree = "<group>";
@@ -180,6 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B66945B1A43AC6800B8A52E /* DBConfig.plist in Resources */,
+				1B66945A1A43AC6800B8A52E /* create_load.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6F2B121A42E55F0011DEE0 /* ScheduleBL.m in Sources */,
+				1B6F2B0F1A42E5480011DEE0 /* GameBL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +245,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6F2B161A42F1640011DEE0 /* ScheduleBLTests.m in Sources */,
+				1B6F2B171A42F18B0011DEE0 /* GameBL.m in Sources */,
+				1B6F2B181A42F18D0011DEE0 /* ScheduleBL.m in Sources */,
+				1B6F2B141A42F14E0011DEE0 /* GameBLTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +296,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../PersistenceLayer/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,6 +335,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../PersistenceLayer/**",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -288,8 +350,15 @@
 		1BFF67E71A412D8400503922 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../PersistenceLayer/**",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"/Users/taojunjun/xcode-workspace/iOS7",
+					"Framework/MyOlympicsWorkspace/PersistenceLayer/build/Debug-iphoneos",
 					"/Users/taojunjun/xcode-workspace/iOS7",
 					"Framework/MyOlympicsWorkspace/PersistenceLayer/build/Debug-iphoneos",
 				);
@@ -303,8 +372,15 @@
 		1BFF67E81A412D8400503922 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../PersistenceLayer/**",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"/Users/taojunjun/xcode-workspace/iOS7",
+					"Framework/MyOlympicsWorkspace/PersistenceLayer/build/Debug-iphoneos",
 					"/Users/taojunjun/xcode-workspace/iOS7",
 					"Framework/MyOlympicsWorkspace/PersistenceLayer/build/Debug-iphoneos",
 				);
@@ -328,6 +404,11 @@
 				);
 				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/taojunjun/xcode-workspace/iOS7",
+					"Framework/MyOlympicsWorkspace/PersistenceLayer/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -341,6 +422,11 @@
 				);
 				INFOPLIST_FILE = BusinessLogicLayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/taojunjun/xcode-workspace/iOS7",
+					"Framework/MyOlympicsWorkspace/PersistenceLayer/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -364,6 +450,7 @@
 				1BFF67E81A412D8400503922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BFF67E91A412D8400503922 /* Build configuration list for PBXNativeTarget "BusinessLogicLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -372,6 +459,7 @@
 				1BFF67EB1A412D8400503922 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
